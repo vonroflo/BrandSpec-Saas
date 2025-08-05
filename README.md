@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌈 BrandSpec - Generate Beautiful Brand Guidelines
 
-## Getting Started
+A modern SaaS application that helps developers and designers create consistent brand specifications in minutes. Export to Markdown, Tailwind, CSS variables, or Figma tokens.
 
-First, run the development server:
+## 🚀 Features
+
+- **Lightning Fast**: Generate complete brand specs in under 5 minutes
+- **Developer-First**: Export to Tailwind config, CSS variables, or copy-paste markdown
+- **Design Consistency**: Ensure your brand looks cohesive across all touchpoints
+- **Multiple Export Formats**: Markdown, Tailwind, CSS, and Figma tokens
+- **Beautiful UI**: Modern, responsive design with smooth animations
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 14 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Forms**: React Hook Form with Zod validation
+- **Icons**: Lucide React
+
+## 📦 Installation
 
 ```bash
+# Clone the repository
+git clone <your-repo-url>
+cd brandspec
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Brand Configuration
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The application allows you to configure:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Colors
+- Primary color
+- Accent color
+- Background color
+- Surface color
+- Text color
 
-## Learn More
+### Typography
+- Heading font selection
+- Body font selection
+- Font scale and weights
 
-To learn more about Next.js, take a look at the following resources:
+### UI Geometry
+- Border radius options
+- Shadow styles
+- Button styles
+- Spacing scale
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Voice & Tone
+- CTA examples
+- Error message tone
+- Brand feel description
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📁 Project Structure
 
-## Deploy on Vercel
+```
+brandspec/
+├── src/
+│   ├── app/
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── components/
+│   │   ├── ui/          # shadcn components
+│   │   ├── brand-form.tsx
+│   │   ├── hero-section.tsx
+│   │   ├── features-grid.tsx
+│   │   └── output-section.tsx
+│   └── lib/
+│       ├── utils.ts
+│       ├── brand-generator.ts
+│       └── types.ts
+├── public/
+├── tailwind.config.ts
+└── package.json
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The application is ready to deploy on Vercel:
+
+```bash
+# Deploy to Vercel
+vercel --prod
+```
+
+## 🎯 Usage
+
+1. **Fill out the form** with your brand details
+2. **Preview the generated spec** in real-time
+3. **Export** to your preferred format (Markdown, Tailwind, CSS, or Figma)
+4. **Download or copy** the generated code
+
+## 📝 License
+
+MIT License - feel free to use this project for your own SaaS applications.
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## 📞 Support
+
+For support, email support@brandspec.dev or create an issue in this repository.
+
+---
+
+Made with ❤️ for indie hackers and developers
